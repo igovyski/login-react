@@ -123,6 +123,10 @@ button[type="submit"] {
   margin-bottom: 2rem;
 }
 
+input:focus-visible {
+  outline-color: #7C3AED;
+}
+
 button[type="submit"]:hover {
   background-color: #9F67FF;
   border: none;
@@ -137,24 +141,4 @@ button[type="submit"]:hover {
   line-height: 24px;
   color: #475569;
   flex: none;
-}
-
-input:focus-visible {
-  outline-color: #7C3AED;
-}
-
-#mostrarSenha {
-  cursor: pointer;
-}
-
-#iconeOlho {
-  cursor: pointer;
-}
-
-.fa-eye-slash:before {
-  content: "\f070";
-}
-
-.fa-eye:before {
-  content: "\f06e";
 }
